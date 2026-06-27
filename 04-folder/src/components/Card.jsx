@@ -1,4 +1,4 @@
-import { Bookmark } from 'lucide-react'
+import { GoBookmark } from "react-icons/go";
 
 function Card(props){
     console.log(props)
@@ -8,7 +8,7 @@ return(
             <div className="logo">
                 <img src={props.brandLogo} alt="" />
             </div>
-            <button>Saved</button>
+            <button>Saved <GoBookmark/> </button>
         </div> 
         <div className="mid">
             <div className="m1">
