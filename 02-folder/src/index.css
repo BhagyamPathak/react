@@ -1,0 +1,21 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    color :#fff
+}
+
+body,html{
+    background-color: #111;
+    height: 100%;
+    width: 100%;
+}
+.card{
+    background-color: rgb(93, 76, 76);
+    padding: 10vh;
+    margin: 10vh;
+    border-radius: 7px;
+}
+
+.nav{
+    background-color: rgb(32, 44, 55);
+}
